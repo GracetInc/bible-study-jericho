@@ -336,6 +336,45 @@ blockquote.large {
   border-radius: 2px;
 }
 
+/* Video section */
+.video-section {
+  text-align: center;
+  padding: 6rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.video-section .section-num {
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.video-section h2 {
+  margin-bottom: 1rem;
+}
+
+.video-section p.lead {
+  margin: 0 auto 2.5rem;
+  max-width: 60ch;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(242, 217, 140, 0.15);
+}
+
+.video-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Footer */
 footer {
   padding: 4rem 2rem;
